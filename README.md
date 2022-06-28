@@ -107,10 +107,10 @@ OverNet (old)             |x4|32.32&nbsp;&nbsp;&nbsp;0.8956|28.71&nbsp;&nbsp;&nb
 ```
 This implementation is for non-commercial research use only. If you find this code useful in your research, please cite the above paper. Please also see our other works:
 
-Frequency-Based Enhancement Network for Efficient Super-Resolution [[Paper](https://ieeexplore.ieee.org/document/9778017)] 
+- Frequency-Based Enhancement Network for Efficient Super-Resolution [[Paper](https://ieeexplore.ieee.org/document/9778017)] 
 [[Code](https://github.com/pbehjatii/FENet)] 
 
-Hierarchical Residual Attention Network for Single Image Super-Resolution [[arXiv](https://arxiv.org/abs/2012.04578)]
+- Hierarchical Residual Attention Network for Single Image Super-Resolution [[arXiv](https://arxiv.org/abs/2012.04578)]
 
 
 
