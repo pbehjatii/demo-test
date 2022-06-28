@@ -78,9 +78,8 @@ $ python train.py --patch_size 64 --batch_size 64 --max_steps 600000 --lr 0.001 
 
 ### Results
 **Note:** The PSNR and SSIM reported in the paper are outdated. We have updated the results as following:
-
-
-Model|Scale|Set5|Set14|B100|Urban100|
+<center>
+Model|   Scale   |   Set5   |Set14|B100|Urban100|
 -----|:---------------------:|:--------------------------:|:-----:|:-------------------------------------:|:-------------------------------:|
  ||| PSNR SSIM |PSNR SSIM|PSNR SSIM|PSNR SSIM|
 OverNet (old)             |x2|38.11/0.9610|33.71/0.9179|32.24/0.9007|32.44/0.9311|
@@ -89,6 +88,7 @@ OverNet (old)             |x3|34.49/0.9267|30.47/0.8436|29.17/0.8063|28.37/0.857
 OverNet              |x3|34.46/0.9273|30.41/0.8429|29.11/0.8053|28.29/0.8541|
 OverNet (old)             |x4|32.32//0.8956|28.71/0.7826|27.67/0.7373|26.31/0.7923|
 OverNet              |x4|32.25/0.8958|28.64/0.7821|27.59/0.7364|26.18/0.7879|
+</center>
 <img src="assets/results.png">
 
 
