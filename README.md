@@ -19,7 +19,7 @@ Super-resolution (SR) has achieved great success due to the development of deep 
 
 #### Contents
 1. [Dataset](#Dataset)
-1. [Test Pretrained Models](#Test Pretrained Models)
+1. [Testing](#Test Pretrained Models)
 
 ### Dataset
 We use DIV2K dataset for training and Set5, Set14, B100, and Urban100 dataset for the benchmark test. Here are the following steps to prepare datasets.
@@ -39,7 +39,7 @@ $ cd datasets && python div2h5.py
 ```
 3. Other benchmark datasets can be downloaded in [Google Drive](https://drive.google.com/drive/folders/1t2le0-Wz7GZQ4M2mJqmRamw5o4ce2AVw?usp=sharing). Same as DIV2K, please put all the datasets in `dataset` directory.
 
-### Test Pretrained Models
+### Testing
 We provide the pretrained models in `checkpoint` directory. To test OverNet on benchmark dataset:
 ```shell
 # Scale factor x2
