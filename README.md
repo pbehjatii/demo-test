@@ -42,7 +42,7 @@ $ python Sample.py      --test_data_dir dataset/<dataset> \
 ```
 
 ### Training Models
-Here are our settings to train OverNet. Note: We use two GPUs and the batchsize and patchsize are 64.
+Here are our settings to train OverNet. Note: We use two GPUs and the batchsize and patchsize are 64. 
 ```shell
 $ python train.py --patch_size 64 \
                        --batch_size 64 \
@@ -54,14 +54,14 @@ $ python train.py --patch_size 64 \
  ```
 
 ### Results
-**Note:** We have trained our model on RGB channel. However, for fair compariosns, we have retrained our model on Y channel and the updated results are as follows. Moreover, we have calculated the SSIM with Matlab.  
+**Note:** The PSNR and SSIM reported in the paper are outdated. We have updated the results as following:
 
 
 Model|Scale|Set5|Set14|B100|Urban100|Manga109
 --|:--:|:--:|:--:|:--:|:--:|:--:
-OverNet              |x2|38.07/0.9608|33.68/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
-OverNet              |x3|38.07/0.9608|33.68/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
-OverNet              |x4|38.07/0.9608|33.68/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
+OverNet              |x2|38.11/0.9608|33.71/0.9183|32.24/0.8999|32.44/0.9304|38.95/0.9773
+OverNet              |x3|34.46/0.9608|30.41/0.9184|29.11/0.9002|28.29/0.9304|33.76/0.9771
+OverNet              |x4|38.07/0.9608|32.25/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
 
 
 
