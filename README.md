@@ -21,6 +21,7 @@ Super-resolution (SR) has achieved great success due to the development of deep 
 1. [Dataset](#Dataset)
 1. [Testing](#Testing)
 1. [Training](#Training)
+1. [Results](#Results)
 1. [Citetion](#Citetion)
 
 ### Dataset
@@ -54,7 +55,7 @@ $ python Sample.py      --test_data_dir dataset/<dataset> --scale 3 --upscale 4 
 $ python Sample.py      --test_data_dir dataset/<dataset> --scale 4 --upscale 5 --ckpt_path ./checkpoint/<path>.pth --sample_dir <sample_dir>
 ```
 
-### Training Models
+### Training
 Here are our settings to train OverNet. Note: We use two GPU to utilize large batch size, but if OOM error arise, please reduce batch size.
 ```shell
 # Scale factor x2
