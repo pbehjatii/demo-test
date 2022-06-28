@@ -1,10 +1,13 @@
 # OverNet
 ### **This is repository is an official PyTorch implementation of the paper "OverNet: Lightweight Multi-Scale Super-Resolution with Overscaling Network".**
-IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021. [[WACV](https://openaccess.thecvf.com/content/WACV2021/papers/Behjati_OverNet_Lightweight_Multi-Scale_Super-Resolution_With_Overscaling_Network_WACV_2021_paper.pdf)]
+IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021. 
 
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]([https://arxiv.org/abs/2108.10257](https://openaccess.thecvf.com/content/WACV2021/papers/Behjati_OverNet_Lightweight_Multi-Scale_Super-Resolution_With_Overscaling_Network_WACV_2021_paper.pdf))
 ### Abstract 
 Super-resolution (SR) has achieved great success due to the development of deep convolutional neural networks (CNNs). However, as the depth and width of the networks increase, CNN-based SR methods have been faced with the challenge of computational complexity in practice. Moreover, most SR methods train a dedicated model for each target resolution, losing generality and increasing memory requirements. To address these limitations we introduce OverNet, a deep but lightweight convolutional network to solve SISR at arbitrary scale factors with a single model. We make the following contributions: first, we introduce a lightweight feature extractor that enforces efficient reuse of information through a novel recursive structure of skip and dense connections. Second, to maximize the performance of the feature extractor, we propose a model agnostic reconstruction module that generates accurate high-resolution images from overscaled feature maps obtained from any SR architecture. Third, we introduce a multi-scale loss function to achieve generalization across scales. Experiments show that our proposal outperforms previous state-of-the-art approaches in standard benchmarks, while maintaining relatively low computation and memory requirements.
-
+### FAQs
+1. The PSNR/SSIM reported in the paper wer outdated. We have reported the updated results.
 ### Requirements
 - Python 3
 - [PyTorch](https://github.com/pytorch/pytorch) (0.4.0), [torchvision](https://github.com/pytorch/vision)
@@ -42,7 +45,7 @@ $ python Sample.py      --test_data_dir dataset/<dataset> \
 ```
 
 ### Training Models
-Here are our settings to train OverNet. Note: We use two GPUs and the batchsize and patchsize are 64. 
+Here are our settings to train OverNet. Note: We use two GPU to utilize large batch size, but if OOM error arise, please reduce batch size.
 ```shell
 $ python train.py --patch_size 64 \
                        --batch_size 64 \
@@ -57,8 +60,8 @@ $ python train.py --patch_size 64 \
 **Note:** The PSNR and SSIM reported in the paper are outdated. We have updated the results as following:
 
 
-Model|Scale|Set5|Set14|B100|Urban100|Manga109
---|:--:|:--:|:--:|:--:|:--:|:--:
+Model|Scale|Set5|Set14|B100|Urban100|
+--|:--:|:--:|:--:|:--:|:--:|
 OverNet              |x2|38.11/0.9608|33.71/0.9183|32.24/0.8999|32.44/0.9304|
 OverNet              |x3|34.46/0.9273|30.41/0.8429|29.11/0.8053|28.29/0.8541|
 OverNet              |x4|32.25/0.8958|28.64/0.7821|27.59/0.7364|26.18/0.7879|
