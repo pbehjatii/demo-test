@@ -13,7 +13,7 @@ Super-resolution (SR) has achieved great success due to the development of deep 
 
 
 ### FAQs
-1. The PSNR/SSIM reported in the paper were outdated. We have reported the updated results.
+1. The PSNR/SSIM reported in the paper are outdated. We have reported the updated results.
 ### Requirements
 - Python 3
 - [PyTorch](https://github.com/pytorch/pytorch) (0.4.0), [torchvision](https://github.com/pytorch/vision)
