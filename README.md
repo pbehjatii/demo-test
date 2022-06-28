@@ -51,7 +51,7 @@ $ python train.py --patch_size 64 \
                        --decay 150000 \
                        --scale [2|3|4] \
                        --upscale [3|4|5]
- 
+ ```
 
 ### Results
 **Note:** We have trained our model on RGB channel. However, for fair compariosns, we have retrained our model on Y channel and the updated results are as follows. Moreover, we have calculated the SSIM with Matlab.  
@@ -60,9 +60,8 @@ $ python train.py --patch_size 64 \
 Model|Scale|Set5|Set14|B100|Urban100|Manga109
 --|:--:|:--:|:--:|:--:|:--:|:--:
 OverNet              |x2|38.07/0.9608|33.68/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
-
-
-
+OverNet              |x3|38.07/0.9608|33.68/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
+OverNet              |x4|38.07/0.9608|33.68/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
 
 
 
