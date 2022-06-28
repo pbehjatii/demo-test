@@ -2,8 +2,8 @@
 ### **This is repository is an official PyTorch implementation of the paper "OverNet: Lightweight Multi-Scale Super-Resolution with Overscaling Network".**
 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021. [[Paper](https://openaccess.thecvf.com/content/WACV2021/papers/Behjati_OverNet_Lightweight_Multi-Scale_Super-Resolution_With_Overscaling_Network_WACV_2021_paper.pdf)] [[arXiv](https://arxiv.org/abs/2012.04578)] 
 
-<div class="alert-danger">
-This is a red colored box
+<div class="alert-info">
+This is a blue colored box
 </div>
 
 ### Abstract 
