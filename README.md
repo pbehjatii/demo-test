@@ -2,7 +2,9 @@
 ### **This is repository is an official PyTorch implementation of the paper "OverNet: Lightweight Multi-Scale Super-Resolution with Overscaling Network".**
 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021. [[Paper](https://openaccess.thecvf.com/content/WACV2021/papers/Behjati_OverNet_Lightweight_Multi-Scale_Super-Resolution_With_Overscaling_Network_WACV_2021_paper.pdf)] [[arXiv](https://arxiv.org/abs/2012.04578)] 
 
-This is [cyan test]{cyan}
+<div class="alert-danger">
+This is a red colored box
+</div>
 
 ### Abstract 
 Super-resolution (SR) has achieved great success due to the development of deep convolutional neural networks (CNNs). However, as the depth and width of the networks increase, CNN-based SR methods have been faced with the challenge of computational complexity in practice. Moreover, most SR methods train a dedicated model for each target resolution, losing generality and increasing memory requirements. To address these limitations we introduce OverNet, a deep but lightweight convolutional network to solve SISR at arbitrary scale factors with a single model. We make the following contributions: first, we introduce a lightweight feature extractor that enforces efficient reuse of information through a novel recursive structure of skip and dense connections. Second, to maximize the performance of the feature extractor, we propose a model agnostic reconstruction module that generates accurate high-resolution images from overscaled feature maps obtained from any SR architecture. Third, we introduce a multi-scale loss function to achieve generalization across scales. Experiments show that our proposal outperforms previous state-of-the-art approaches in standard benchmarks, while maintaining relatively low computation and memory requirements.
