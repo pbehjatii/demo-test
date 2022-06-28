@@ -82,7 +82,7 @@ $ python train.py --patch_size 64 --batch_size 64 --max_steps 600000 --lr 0.001 
   
 Model|   Scale   |   Set5   |Set14|B100|Urban100|
 -----|:---------------------:|:--------------------------:|:-----:|:-------------------------------------:|:-------------------------------:|
- ||| PSNR SSIM |PSNR&nbsp;SSIM|PSNR SSIM|PSNR SSIM|
+ ||| PSNR SSIM |PSNR&nbsp;&nbsp;&nbsp;SSIM|PSNR SSIM|PSNR SSIM|
 OverNet (old)             |x2|38.11/0.9610|33.71/0.9179|32.24/0.9007|32.44/0.9311|
 OverNet              |x2|38.11/0.9608|33.71/0.9183|32.24/0.8999|32.44/0.9304|
 OverNet (old)             |x3|34.49/0.9267|30.47/0.8436|29.17/0.8063|28.37/0.8572|
