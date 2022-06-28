@@ -14,7 +14,7 @@ Super-resolution (SR) has achieved great success due to the development of deep 
 - importlib
 
 ### Dataset
-We use DIV2K dataset for training and Set5, Set14, B100, Urban100 and Manga109 dataset for the benchmark test. Here are the following steps to prepare datasets.
+We use DIV2K dataset for training and Set5, Set14, B100, and Urban100 dataset for the benchmark test. Here are the following steps to prepare datasets.
 
 1. Download [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K) and unzip on `dataset` directory as below:
   ```
@@ -59,9 +59,9 @@ $ python train.py --patch_size 64 \
 
 Model|Scale|Set5|Set14|B100|Urban100|Manga109
 --|:--:|:--:|:--:|:--:|:--:|:--:
-OverNet              |x2|38.11/0.9608|33.71/0.9183|32.24/0.8999|32.44/0.9304|38.95/0.9773
-OverNet              |x3|34.46/0.9608|30.41/0.9184|29.11/0.9002|28.29/0.9304|33.76/0.9771
-OverNet              |x4|38.07/0.9608|32.25/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
+OverNet              |x2|38.11/0.9608|33.71/0.9183|32.24/0.8999|32.44/0.9304|
+OverNet              |x3|34.46/0.9273|30.41/0.8429|29.11/0.8053|28.29/0.8541|
+OverNet              |x4|32.25/0.8958|28.64/0.7821|27.59/0.7364|26.18/0.7879|
 
 
 
