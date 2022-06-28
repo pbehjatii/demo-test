@@ -43,13 +43,16 @@ $ python Sample.py      --test_data_dir dataset/<dataset> \
 ### Training Models
 Here are our settings to train OverNet. Note: We use two GPUs and the batchsize and patchsize are 64.
 ```shell
-# For CARN
-$ python carn/train.py --patch_size 64 \
+$ python train.py --patch_size 64 \
                        --batch_size 64 \
                        --max_steps 600000 \
+                       --lr 0.001 \
                        --decay 150000 \
                        --scale [2|3|4] \
                        --upscale [3|4|5]
+ 
+
+                       
 
 
 
