@@ -29,6 +29,7 @@ Super-resolution (SR) has achieved great success due to the development of deep 
 1. [Training](#Training)
 1. [Results](#Results)
 1. [Citetion](#Citetion)
+1. [Other Works](#Other Works)
 
 ### Dataset
 We use DIV2K dataset for training and Set5, Set14, B100, and Urban100 dataset for the benchmark test. Here are the following steps to prepare datasets.
@@ -94,6 +95,7 @@ Frequency-Based Enhancement Network for Efficient Super-Resolution [[Paper](http
 [[Code](https://github.com/pbehjatii/FENet)] 
 
 Hierarchical Residual Attention Network for Single Image Super-Resolution [[arXiv](https://arxiv.org/abs/2012.04578)]
+## Other works
 
 ## Citation
 ```
