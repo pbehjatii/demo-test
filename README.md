@@ -19,7 +19,7 @@ Super-resolution (SR) has achieved great success due to the development of deep 
 
 #### Contents
 1. [Dataset](#Dataset)
-1. [Testing](#Test Pretrained Models)
+1. [Test Pretrained Models](#Testing)
 
 ### Dataset
 We use DIV2K dataset for training and Set5, Set14, B100, and Urban100 dataset for the benchmark test. Here are the following steps to prepare datasets.
