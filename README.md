@@ -8,7 +8,7 @@ IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021. [[Pa
 Super-resolution (SR) has achieved great success due to the development of deep convolutional neural networks (CNNs). However, as the depth and width of the networks increase, CNN-based SR methods have been faced with the challenge of computational complexity in practice. Moreover, most SR methods train a dedicated model for each target resolution, losing generality and increasing memory requirements. To address these limitations we introduce OverNet, a deep but lightweight convolutional network to solve SISR at arbitrary scale factors with a single model. We make the following contributions: first, we introduce a lightweight feature extractor that enforces efficient reuse of information through a novel recursive structure of skip and dense connections. Second, to maximize the performance of the feature extractor, we propose a model agnostic reconstruction module that generates accurate high-resolution images from overscaled feature maps obtained from any SR architecture. Third, we introduce a multi-scale loss function to achieve generalization across scales. Experiments show that our proposal outperforms previous state-of-the-art approaches in standard benchmarks, while maintaining relatively low computation and memory requirements.
 
 <img src="assets/overnet.png">
-<img src="assets/results.png">
+
 
 
 
@@ -88,15 +88,8 @@ OverNet (old)             |x3|34.49/0.9267|30.47/0.8436|29.17/0.8063|28.37/0.857
 OverNet              |x3|34.46/0.9273|30.41/0.8429|29.11/0.8053|28.29/0.8541|
 OverNet (old)             |x4|32.32//0.8956|28.71/0.7826|27.67/0.7373|26.31/0.7923|
 OverNet              |x4|32.25/0.8958|28.64/0.7821|27.59/0.7364|26.18/0.7879|
+<img src="assets/results.png">
 
-
-
-:rocket:  :rocket:  :rocket: **Please also see our other works:**
-
-Frequency-Based Enhancement Network for Efficient Super-Resolution [[Paper](https://ieeexplore.ieee.org/document/9778017)] 
-[[Code](https://github.com/pbehjatii/FENet)] 
-
-Hierarchical Residual Attention Network for Single Image Super-Resolution [[arXiv](https://arxiv.org/abs/2012.04578)]
 
 
 ## Citation
@@ -109,7 +102,12 @@ Hierarchical Residual Attention Network for Single Image Super-Resolution [[arXi
   year={2021}
 }
 ```
+:rocket:  :rocket:  :rocket: **Please also see our other works:**
 
+Frequency-Based Enhancement Network for Efficient Super-Resolution [[Paper](https://ieeexplore.ieee.org/document/9778017)] 
+[[Code](https://github.com/pbehjatii/FENet)] 
+
+Hierarchical Residual Attention Network for Single Image Super-Resolution [[arXiv](https://arxiv.org/abs/2012.04578)]
 
 
 
