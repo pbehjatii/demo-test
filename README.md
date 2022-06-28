@@ -1,4 +1,5 @@
-# OverNet: Lightweight Multi-Scale Super-Resolution with Overscaling Network
+# OverNet
+### **This is repository is an official PyTorch implementation of the paper "OverNet: Lightweight Multi-Scale Super-Resolution with Overscaling Network".**
 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021. [[WACV](https://openaccess.thecvf.com/content/WACV2021/papers/Behjati_OverNet_Lightweight_Multi-Scale_Super-Resolution_With_Overscaling_Network_WACV_2021_paper.pdf)]
 
 ### Abstract 
@@ -52,11 +53,13 @@ $ python train.py --patch_size 64 \
                        --upscale [3|4|5]
  
 
-                       
+### Results
+**Note:** We have trained our model on RGB channel. However, for fair compariosns, we have retrained our model on Y channel and the updated results are as follows. Moreover, we have calculated the SSIM with Matlab.  
 
 
-
-
+Model|Scale|Set5|Set14|B100|Urban100|Manga109
+--|:--:|:--:|:--:|:--:|:--:|:--:
+OverNet              |x2|38.07/0.9608|33.68/0.9184|32.22/0.9002|32.32/0.9304|38.64/0.9771
 
 
 
