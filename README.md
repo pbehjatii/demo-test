@@ -86,9 +86,9 @@ Model|   Scale   |   Set5   |Set14|B100|Urban100|
 OverNet (old)             |x2|38.11&nbsp;&nbsp;&nbsp;0.9610|33.71&nbsp;&nbsp;&nbsp;0.9179|32.24&nbsp;&nbsp;&nbsp;0.9007|32.44&nbsp;&nbsp;&nbsp;0.9311|
 **OverNet**              |x2|38.11&nbsp;&nbsp;&nbsp;0.9608|33.71&nbsp;&nbsp;&nbsp;0.9183|32.24&nbsp;&nbsp;&nbsp;0.8999|32.44&nbsp;&nbsp;&nbsp;0.9304|
 OverNet (old)             |x3|34.49&nbsp;&nbsp;&nbsp;0.9267|30.47&nbsp;&nbsp;&nbsp;0.8436|29.17&nbsp;&nbsp;&nbsp;0.8063|28.37&nbsp;&nbsp;&nbsp;0.8572|
-OverNet              |x3|34.46&nbsp;&nbsp;&nbsp;0.9273|30.41&nbsp;&nbsp;&nbsp;0.8429|29.11&nbsp;&nbsp;&nbsp;0.8053|28.29&nbsp;&nbsp;&nbsp;0.8541|
+**OverNet**              |x3|34.46&nbsp;&nbsp;&nbsp;0.9273|30.41&nbsp;&nbsp;&nbsp;0.8429|29.11&nbsp;&nbsp;&nbsp;0.8053|28.29&nbsp;&nbsp;&nbsp;0.8541|
 OverNet (old)             |x4|32.32&nbsp;&nbsp;&nbsp;0.8956|28.71&nbsp;&nbsp;&nbsp;0.7826|27.67&nbsp;&nbsp;&nbsp;0.7373|26.31&nbsp;&nbsp;&nbsp;0.7923|
-OverNet              |x4|32.25&nbsp;&nbsp;&nbsp;0.8958|28.64&nbsp;&nbsp;&nbsp;0.7821|27.59&nbsp;&nbsp;&nbsp;0.7364|26.18&nbsp;&nbsp;&nbsp;0.7879|
+**OverNet**              |x4|32.25&nbsp;&nbsp;&nbsp;0.8958|28.64&nbsp;&nbsp;&nbsp;0.7821|27.59&nbsp;&nbsp;&nbsp;0.7364|26.18&nbsp;&nbsp;&nbsp;0.7879|
   
 </div>
 <img src="assets/results.png">
